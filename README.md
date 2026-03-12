@@ -12,7 +12,7 @@ Every time you make a UPI payment, the transaction is automatically parsed, cate
 
 ## Features
 
-- Automatic SMS detection from HDFC Bank (`HDFCBK`)
+- Automatic SMS detection from HDFC Bank (`HDFCBK`) - If needed for any other banks, need to modify the format as such
 - Extracts amount and merchant name from SMS body
 - Auto-categorizes transactions into predefined spending categories
 - Logs to Google Sheets in real time via Apps Script
@@ -61,7 +61,7 @@ Every time you make a UPI payment, the transaction is automatically parsed, cate
 
 - Android device
 - [Automate app](https://play.google.com/store/apps/details?id=com.llamalab.automate) (free)
-- HDFC Bank UPI SMS alerts enabled
+- Any Bank UPI SMS alerts enabled (Now the parser is enabled for the HDFC bank)
 - Google account
 
 ## Privacy
